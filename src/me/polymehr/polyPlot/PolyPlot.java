@@ -1,8 +1,8 @@
 package me.noxgrim.polyPlot;
 
-import me.noxgrim.polyPlot.command.CommandInterface;
-import me.noxgrim.polyPlot.command.InputInterpreter;
-import me.noxgrim.polyPlot.command.UnixInputInterpreter;
+import me.noxgrim.polyCmd.CommandInterface;
+import me.noxgrim.polyCmd.InputInterpreter;
+import me.noxgrim.polyCmd.LinuxInputInterpreter;
 
 
 public class PolyPlot  {
@@ -18,7 +18,7 @@ public class PolyPlot  {
     
     main = new PlotterController();
     
-    in = new UnixInputInterpreter(new CommandInterface(), null, 0);
+    in = new LinuxInputInterpreter(new CommandInterface(), null, 0);
     
     in.start();
 

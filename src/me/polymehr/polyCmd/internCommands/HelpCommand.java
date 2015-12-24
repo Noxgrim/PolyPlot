@@ -1,10 +1,10 @@
-package me.noxgrim.polyPlot.command.internCommands;
+package me.noxgrim.polyCmd.internCommands;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import me.noxgrim.polyPlot.command.CommandInterface;
+import me.noxgrim.polyCmd.CommandInterface;
 
 /**
  * A command that provides help.
