@@ -1,4 +1,4 @@
-package me.noxgrim.polyPlot.command.internCommands;
+package me.noxgrim.polyCmd.internCommands;
 
 /**
  * Represents a Command. All commands should inherit it.<br>

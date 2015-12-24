@@ -1,4 +1,4 @@
-package me.noxgrim.polyPlot.command.internCommands;
+package me.noxgrim.polyCmd.internCommands;
 
 import me.noxgrim.polyPlot.PolyPlot;
 import me.noxgrim.polyPlot.graphics.plotter.FunctionPlotter;

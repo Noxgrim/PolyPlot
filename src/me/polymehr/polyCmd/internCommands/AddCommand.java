@@ -1,4 +1,4 @@
-package me.noxgrim.polyPlot.command.internCommands;
+package me.noxgrim.polyCmd.internCommands;
 
 import java.awt.Color;
 import java.util.regex.Matcher;

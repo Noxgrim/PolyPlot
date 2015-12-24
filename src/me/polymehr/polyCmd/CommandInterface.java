@@ -1,14 +1,14 @@
-package me.noxgrim.polyPlot.command;
+package me.noxgrim.polyCmd;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.noxgrim.polyPlot.command.internCommands.AddCommand;
-import me.noxgrim.polyPlot.command.internCommands.Command;
-import me.noxgrim.polyPlot.command.internCommands.HelpCommand;
-import me.noxgrim.polyPlot.command.internCommands.RemoveCommand;
+import me.noxgrim.polyCmd.internCommands.AddCommand;
+import me.noxgrim.polyCmd.internCommands.Command;
+import me.noxgrim.polyCmd.internCommands.HelpCommand;
+import me.noxgrim.polyCmd.internCommands.RemoveCommand;
 
 /**
  * An class that provides basic command and command line parsing
