@@ -1,9 +1,11 @@
 package me.noxgrim.polyCmd.util;
 
-public class Unix {
+import me.noxgrim.polyCmd.natives.NativeLoader;
+
+public class LinuxUtil {
   
   static {
-    System.loadLibrary("linux-native-utils");
+    NativeLoader.load("linux-native-utils", "lib", ".so");
   }
   
   /**
